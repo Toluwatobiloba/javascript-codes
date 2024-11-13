@@ -1,0 +1,17 @@
+const actions = ["start", "stop", "pause"];   // A list of allowed Actions is defined // 
+let userAction = "start";  // The user's chosen action (userAction) is set to "start" //
+let isLoggedIn = true;  // The user's login status (isLoggedIn) is set to be true (logged in) //
+
+switch(true) {
+    case actions.includes(userAction) && isLoggedIn: // If the user's action is in allowed list and they are logged in 
+        console.log("Action permitted:" + userAction );  // then the user's action will be to "start" which will be console logged //
+        break;
+    case actions.includes(userAction) && !isLoggedIn:  // If the user's Action is in the allowed list BUT they are not logged in(!isLoggedIn) then
+        console.log("please log in to perform this action");  // it logs 'please log in to perform this action' in the console //
+        break;
+    default:
+        console.log("No valid case found."); // If none of the above conditions match, it logs 'no valid case found' in the console //
+
+        // This code ensures users can only perform actions if they are logged in and if the action is allowed //                         
+
+}   
