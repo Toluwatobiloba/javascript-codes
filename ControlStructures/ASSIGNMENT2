@@ -1,0 +1,37 @@
+// 4. Arrow Function
+// An arrow function is a concise way to define a function in javascript.
+// Arrow functions are defined using the => symbol, which separates the input parameters
+// from the funtion body. They are often used as callbacks, event handlers, or as methods within objects.
+
+const functionName = (parameters) => {
+    // function body
+};
+
+
+// Write Arrow function that welcome someone into your application.
+
+const welcomeUser = (name) => {
+    console.log(`Hello, ${name}! Welcome to our application.`);
+};
+
+welcomeUser("Oluwanifemi");
+
+
+// Write Arrow function that returns the sum of 3 numbers.
+
+const sumNumbers = (a, b, c) => {
+    return a + b + c;
+};
+
+console.log(sumNumbers(2, 3, 4));
+output; 9
+
+
+// Write Arrow function that returns the modulud(%) of 2 numbers.
+
+const modulus = (a, b) => {
+    return a % b;
+};
+
+console.log(modulus(17, 5));
+output; 2
