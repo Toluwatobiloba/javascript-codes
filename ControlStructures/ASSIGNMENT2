@@ -27,7 +27,7 @@ console.log(sumNumbers(2, 3, 4));
 output; 9
 
 
-// Write Arrow function that returns the modulud(%) of 2 numbers.
+// Write Arrow function that returns the modulus(%) of 2 numbers.
 
 const modulus = (a, b) => {
     return a % b;
